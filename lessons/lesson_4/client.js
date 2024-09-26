@@ -20,7 +20,7 @@ const optionsConection = {
  * como segundo parametro una callback para proceder a manejar la conexion
  * cuando sea exitosa
  */
-const socket = net.connect(optionsConection, handleConnection);
+net.connect(optionsConection, handleConnection);
 
 /**
  * Cuando la conexion se realice se invocara esta funcion

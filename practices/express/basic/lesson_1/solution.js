@@ -5,11 +5,9 @@
 /* eslint-disable no-use-before-define */
 /* eslint-disable no-unused-vars */
 /**
- * Esta funcion devuelve un orden correcto de multiplicadores
- * pasado un array de numeros enteros
- * @param {number[]} coins
- * @param {number[]} multipliers
- * @return number[]
+ * Funcion encargada de extraer la informacion
+ * del DOM para las monedas y los multiplicadores
+ * @return object
  */
 function getCorrectMultipliers(coins, multipliers) {
   const solution = [];

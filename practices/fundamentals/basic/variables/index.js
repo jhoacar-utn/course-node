@@ -17,7 +17,8 @@ let miVariable;
  */
 let otraVariable = 'un nombre';
 /**
- * Esta variable es declarada solamente en un bloque de codigo pero no podra ser cambiada mas adelante
+ * Esta variable es declarada solamente en un bloque de codigo
+ * pero no podra ser cambiada mas adelante
  */
 const unaConstante = 'un valor';
 
